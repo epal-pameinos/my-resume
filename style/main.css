@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap");
+
+:root {
+  --mainTextColor: #fff;
+  --secondaryTextColor: #adb0b1;
+  --mainLinkColor: rgb(30, 190, 214);
+  --mainBorderColor: #2b3031;
+  --mainBgColor: #131415;
+}
+
+* {
+  font-family: "Readex Pro", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5rem;
+  color: var(--mainTextColor);
+}
+
+body {
+  background-color: var(--mainBgColor);
+}
+
+p,
+span,
+li {
+  color: var(--secondaryTextColor);
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainLinkColor);
+  font-weight: 500;
+}
+
+li {
+  line-height: 1.9rem;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.page-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+#user-name {
+  font-size: 48px;
+  line-height: 1em;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#email {
+  color: var(--mainTextColor);
+}
+
+.socials-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.socials-list a {
+  font-weight: 300;
+  color: var(--secondaryTextColor);
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.socials-list a:hover {
+  color: var(--mainLinkColor);
+}
+
+#qualifications-list {
+  list-style: none;
+}
+
+.techstack-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.techstack-card {
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.work-history-card {
+  border-left: 1px solid var(--mainBorderColor);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.line-break {
+  height: 1px;
+  background-color: var(--mainBorderColor);
+}
+
+.education-card {
+  border-left: 1px solid var(--mainBorderColor);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.course-card {
+  border-top: 1px solid var(--mainBorderColor);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.course-card a {
+  color: var(--mainTextColor);
+  transition: 0.3s;
+}
+
+.course-card a:hover {
+  color: rgb(30, 190, 214);
+}
+
+#publications-list li {
+  font-size: 14px;
+}
