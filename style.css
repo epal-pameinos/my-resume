@@ -310,8 +310,10 @@ input:checked + .slider:before {
   .hero-wrapper {
     flex-direction: column;
     gap: 1rem;
+    padding-top: 2rem;
   }
   #user-name {
     text-align: center;
+    font-size: 32px;
   }
 }
