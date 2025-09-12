@@ -112,6 +112,29 @@ li {
   padding-right: 0.25rem;
 }
 
+.skills-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.skill-card {
+  border: 2px solid var(--border-color);
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.skill-card:hover {
+  border-color: var(--highlight-color);
+}
+
+.skill-card span:hover {
+  color: var(--highlight-color);
+  cursor: pointer;
+}
+
 .experience-card {
   border-left: 1px solid var(--border-color);
   margin-top: 3rem;
